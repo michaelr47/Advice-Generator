@@ -44,4 +44,9 @@ The designs were created to the following widths:
 
 body {
     background-color: var(--darkBlue);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   flex-direction: column;
+    min-height: 100vh;
 }
