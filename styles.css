@@ -59,7 +59,7 @@ body {
 .card {
     background-color: var(--darkGrayishBlue);
     height: 17rem;
-    width: 32.5rem;
+    width: 32rem;
     min-width: 330px;
     padding: 2rem;
     border-radius: 15px;
@@ -67,6 +67,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    position: relative;
 }
 
 
@@ -77,6 +78,8 @@ border-radius: 50%;
 border: none;
 background-color: var(--neonGreen);
 transition: .3s ease-out;
+position: absolute;
+bottom: -25px;
 }
 
 #adviceBtn:hover {
