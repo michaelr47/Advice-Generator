@@ -48,6 +48,7 @@ The designs were created to the following widths:
 }
 
 body {
+    font-family: 'Manrope', sans-serif;
     background-color: var(--darkBlue);
     display: flex;
     justify-content: space-evenly;
@@ -58,7 +59,8 @@ body {
 
 .card {
     background-color: var(--darkGrayishBlue);
-    height: 17rem;
+    color: var(--lightBlue);
+    height: 17.5rem;
     width: 32rem;
     min-width: 330px;
     padding: 2rem;
@@ -72,6 +74,9 @@ body {
     text-align: center;
 }
 
+#advice {
+    font-weight: 600;
+}
 
 #adviceBtn {
 height: 50px;
@@ -90,6 +95,9 @@ z-index: 1;
     box-shadow: 0px 0px 15px 8px var(--neonGreen);
 }
 
+.neon {
+    color: var(--neonGreen);
+}
 picture { margin: 10px; }
 
 @media screen and (max-width: 576px) {
