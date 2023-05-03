@@ -66,7 +66,7 @@ body {
     display: flex;
     flex-direction: column;
    
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     position: relative;
     text-align: center;
@@ -95,9 +95,13 @@ picture { margin: 10px; }
 @media screen and (max-width: 576px) {
     .card {
         width: 350px;
-        height: 18rem;
-        padding: 3rem;
+        height: 20rem;
+        padding: 1.5rem;
         text-align: center;
     }
+
+    h1 {
+        font-size: 1.7rem;
+    } 
 
 }
