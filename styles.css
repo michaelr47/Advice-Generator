@@ -60,7 +60,7 @@ body {
 .card {
     background-color: var(--darkGrayishBlue);
     color: var(--lightBlue);
-    height: 17.5rem;
+    height: 20rem;
     width: 32rem;
     min-width: 330px;
     padding: 2rem;
