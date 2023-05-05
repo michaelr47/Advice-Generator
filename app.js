@@ -13,5 +13,7 @@ const fetchNewAdviceQuote = () => {
     });
 };
 
+// onload event to invoke fetch api data to return advice and id on screen load.
 window.onload = fetchNewAdviceQuote();
+// click event to fetch advice 
 adviceBtn.addEventListener('click', fetchNewAdviceQuote);
