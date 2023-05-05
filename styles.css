@@ -98,6 +98,11 @@ z-index: 1;
 .neon {
     color: var(--neonGreen);
 }
+
+.card p {
+    letter-spacing: 4px;
+    font-size: .875rem;
+}
 picture { margin: 10px; }
 
 @media screen and (max-width: 576px) {
