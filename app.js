@@ -8,7 +8,6 @@ const fetchNewAdviceQuote = () => {
     .then((res) => res.json())
     .then((data) => {
       let randomAdviceCall = data.slip;
-      console.log(randomAdviceCall);
       advice.innerText = `"${randomAdviceCall.advice}"`;
       adviceNumber.innerText = randomAdviceCall.id;
     });
