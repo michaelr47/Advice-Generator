@@ -14,5 +14,5 @@ const fetchNewAdviceQuote = () => {
     });
 };
 
+window.onload = fetchNewAdviceQuote();
 adviceBtn.addEventListener('click', fetchNewAdviceQuote);
-
